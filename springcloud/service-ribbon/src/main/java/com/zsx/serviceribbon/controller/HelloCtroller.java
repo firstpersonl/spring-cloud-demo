@@ -12,7 +12,7 @@ public class HelloCtroller {
     @Autowired
     HelloService helloService;
 
-    @RequestMapping(value = "/test")
+    @RequestMapping(value = "/hi")
     public String hi(@RequestParam String name){
         return helloService.hiServiec(name);
     }
